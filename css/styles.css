@@ -5,12 +5,15 @@
   --text-color-cloud: #f4f4fd;
   --text-color-logo: #4d5ae5;
   --background-color: #2e2f42;
-  --text-font-family: "Raleway", sans-serif;
-  --logo-font-family: "Roboto", sans-serif;
+  --button-hover-color: #404bbf;
+  --logo-font-family: "Raleway", sans-serif;
+  --text-font-family: "Roboto", sans-serif;
 }
 
 body {
-  font-family: var(--logo-font-family);
+  font-family: var(--text-font-family);
+  background-color: var(--main-color-white);
+  color: var(--text-color-slate);
 }
 
 .nav-link {
@@ -25,18 +28,26 @@ body {
   color: var(--text-color-cloud);
 }
 
+.list {
+  list-style: none;
+}
+
 .logo {
-  color: var(--main-color-white);
-  font-family: Raleway;
+  color: var(--text-color-logo);
+  font-family: var(--logo-font-family);
   font-size: 18px;
   font-weight: 800;
-  line-height: 116.667%;
+  line-height: 1.17%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
-.logo-first-word {
-  color: var(--text-color-logo);
+.logo-second-word {
+  color: var(--text-color-navy);
+}
+
+.link {
+  text-decoration: none;
 }
 
 .address {
@@ -49,6 +60,10 @@ body {
 
 .address:hover .address:focus {
   color: var(--text-color-cloud);
+}
+
+.hero-page {
+  background-color: var(--text-color-navy);
 }
 
 .page-title {
@@ -69,6 +84,11 @@ body {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background-color: var(--button-hover-color);
 }
 
 .feature-title {
@@ -91,8 +111,13 @@ body {
   font-weight: 700;
   line-height: 111.111%;
   letter-spacing: 0.72px;
+  text-align: center;
   text-transform: capitalize;
   color: var(--text-color-navy);
+}
+
+.secion-3 {
+  background-color: var(--text-color-navy);
 }
 
 .our-team {
@@ -100,6 +125,7 @@ body {
   font-weight: 700;
   line-height: 111.111%;
   letter-spacing: 0.72px;
+  text-align: center;
   text-transform: capitalize;
   color: var(--text-color-navy);
 }
@@ -115,14 +141,26 @@ body {
 .specialization {
   font-size: 16px;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color-slate);
+}
+
+.list-employees {
+  background-color: var(--main-color-white);
+}
+
+.foooter-bg {
+  background-color: var(--background-color);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.32px;
+  color: var(--text-color-cloud);
+}
+
+.logo-second-word-footer {
   color: var(--text-color-cloud);
 }
