@@ -89,7 +89,7 @@ body {
 }
 
 .order-button:hover .order-button:focus {
-  background-color: #404bbf;
+  background-color: var(--button-hover-color);
 }
 
 .feature-title {
