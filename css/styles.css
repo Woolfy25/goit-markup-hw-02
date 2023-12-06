@@ -212,10 +212,10 @@ body {
 
 .projects-name {
   color: var(--text-color-navy);
-  font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
-  letter-spacing: 0.4px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .projects-description {
@@ -223,7 +223,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  letter-spacing: 0.32px;
 }
 
 .phone-email {
