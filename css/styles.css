@@ -88,7 +88,7 @@ body {
   cursor: pointer;
 }
 
-.order-button:hover {
+.order-button:hover .order-button:focus {
   background-color: #404bbf;
 }
 
@@ -141,7 +141,6 @@ body {
 
 .specialization {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -176,7 +175,7 @@ body {
 
 .button-filter {
   font-family: var(--text-font-family);
-  color: #404bbf;
+  color: #4d5ae5;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
@@ -185,7 +184,7 @@ body {
   cursor: pointer;
 }
 
-.button-filter :hover {
+.button-filter:hover .button-filter:focus {
   color: var(--main-color-white);
   background-color: #404bbf;
 }
