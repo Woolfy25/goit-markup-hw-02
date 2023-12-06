@@ -46,8 +46,11 @@ body {
   color: var(--text-color-navy);
 }
 
-.link {
-  text-decoration: none;
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
 }
 
 .address {
@@ -141,7 +144,6 @@ body {
 
 .specialization {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color-slate);
@@ -207,10 +209,8 @@ body {
 
 .phone-email {
   color: var(--text-color-slate);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .phone-email:hover .phone-email:focus {
