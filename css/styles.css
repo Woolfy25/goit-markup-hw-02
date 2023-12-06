@@ -16,6 +16,25 @@ body {
   color: var(--text-color-slate);
 }
 
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--list-color);
+}
+
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+
 .nav-link {
   color: var(--text-color-navy);
   font-size: 16px;
@@ -26,10 +45,6 @@ body {
 
 .nav-link:hover .nav-link:focus {
   color: var(--button-hover-color);
-}
-
-.list {
-  list-style: none;
 }
 
 .logo-link {
@@ -44,21 +59,6 @@ body {
 
 .logo-second-word {
   color: var(--text-color-navy);
-}
-
-.link {
-  text-decoration: none;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--list-color);
-}
-
-.link:hover {
-  color: #404bbf;
-}
-.link:focus {
-  color: #404bbf;
 }
 
 .address {
