@@ -79,7 +79,7 @@ body {
   border-radius: 4px;
   font-family: var(--text-font-family);
   color: var(--main-color-white);
-  background-color: var(--button-hover-color);
+  background-color: var(--text-color-logo);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-size: 16px;
   font-weight: 500;
@@ -143,8 +143,8 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text-color-slate);
 }
 
@@ -158,6 +158,13 @@ body {
 
 .footer-text {
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color-cloud);
+}
+
+.footer-text-portfolio {
+  font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.32px;
   color: var(--text-color-cloud);
@@ -168,15 +175,17 @@ body {
 }
 
 .button-filter {
+  font-family: var(--text-font-family);
   color: #404bbf;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
   background-color: var(--text-color-cloud);
+  cursor: pointer;
 }
 
-.all-button {
+.button-filter :hover {
   color: var(--main-color-white);
   background-color: #404bbf;
 }
@@ -191,6 +200,13 @@ body {
 
 .projects-description {
   color: var(--text-color-slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.phone-email {
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
