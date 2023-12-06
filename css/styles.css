@@ -32,7 +32,7 @@ body {
   list-style: none;
 }
 
-.logo {
+.logo-link {
   color: var(--text-color-logo);
   font-family: var(--logo-font-family);
   font-size: 18px;
