@@ -79,7 +79,7 @@ body {
   border-radius: 4px;
   font-family: var(--text-font-family);
   color: var(--main-color-white);
-  background: var(--text-color-logo);
+  background-color: var(--button-hover-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-size: 16px;
   font-weight: 500;
@@ -117,7 +117,7 @@ body {
   color: var(--text-color-navy);
 }
 
-.secion-three {
+.section-three {
   background-color: var(--text-color-cloud);
 }
 
@@ -165,4 +165,34 @@ body {
 
 .logo-second-word-footer {
   color: var(--text-color-cloud);
+}
+
+.button-filter {
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  background-color: var(--text-color-cloud);
+}
+
+.all-button {
+  color: var(--main-color-white);
+  background-color: #404bbf;
+}
+
+.projects-name {
+  color: var(--text-color-navy);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+
+.projects-description {
+  color: var(--text-color-slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
 }
